@@ -1,0 +1,529 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin#readme"
+
+    >pushwoosh-cordova-plugin (v6.5.1)</a>
+</h1>
+<h4>
+    This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).
+    </h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.pushwoosh-cordova-plugin">module pushwoosh-cordova-plugin</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.</span>jasmine</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.pushwoosh-cordova-plugin.jasmine">module pushwoosh-cordova-plugin.jasmine</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.afterEach">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>afterEach
+            <span class="apidocSignatureSpan">(afterEachFunction)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.beforeEach">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>beforeEach
+            <span class="apidocSignatureSpan">(beforeEachFunction)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.describe">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>describe
+            <span class="apidocSignatureSpan">(description, specDefinitions)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.expect">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>expect
+            <span class="apidocSignatureSpan">(actual)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.it">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>it
+            <span class="apidocSignatureSpan">(desc, func)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.runs">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>runs
+            <span class="apidocSignatureSpan">(func)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.spyOn">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>spyOn
+            <span class="apidocSignatureSpan">(obj, methodName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.waits">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>waits
+            <span class="apidocSignatureSpan">(timeout)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.waitsFor">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>waitsFor
+            <span class="apidocSignatureSpan">(latchFunction, optional_timeoutMessage, optional_timeout)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.xdescribe">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>xdescribe
+            <span class="apidocSignatureSpan">(description, specDefinitions)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.xit">
+            function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>xit
+            <span class="apidocSignatureSpan">(desc, func)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.</span>jasmine</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.pushwoosh-cordova-plugin" id="apidoc.module.pushwoosh-cordova-plugin">module pushwoosh-cordova-plugin</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.pushwoosh-cordova-plugin.jasmine" id="apidoc.module.pushwoosh-cordova-plugin.jasmine">module pushwoosh-cordova-plugin.jasmine</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.afterEach" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.afterEach">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>afterEach
+        <span class="apidocSignatureSpan">(afterEachFunction)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">afterEach = function (afterEachFunction) {
+  jasmine.getEnv().afterEach(afterEachFunction);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* A function that is called after each spec in a suite.
+*
+* Used for restoring any state that is hijacked during spec execution.
+*
+* @param {Function} afterEachFunction
+*/
+var afterEach = function(afterEachFunction) {
+ jasmine.getEnv().<span class="apidocCodeKeywordSpan">afterEach</span>(afterEachFunction);
+};
+if (isCommonJS) exports.afterEach = afterEach;
+
+/**
+* Defines a suite of specifications.
+*
+* Stores the description and all defined specs in the Jasmine environment as one suite of specs. Variables declared
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.beforeEach" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.beforeEach">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>beforeEach
+        <span class="apidocSignatureSpan">(beforeEachFunction)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">beforeEach = function (beforeEachFunction) {
+  jasmine.getEnv().beforeEach(beforeEachFunction);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* A function that is called before each spec in a suite.
+*
+* Used for spec setup, including validating assumptions.
+*
+* @param {Function} beforeEachFunction
+*/
+var beforeEach = function(beforeEachFunction) {
+ jasmine.getEnv().<span class="apidocCodeKeywordSpan">beforeEach</span>(beforeEachFunction);
+};
+if (isCommonJS) exports.beforeEach = beforeEach;
+
+/**
+* A function that is called after each spec in a suite.
+*
+* Used for restoring any state that is hijacked during spec execution.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.describe" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.describe">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>describe
+        <span class="apidocSignatureSpan">(description, specDefinitions)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">describe = function (description, specDefinitions) {
+  return jasmine.getEnv().describe(description, specDefinitions);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*
+* // TODO: a simple suite with a nested describe block
+*
+* @param {String} description A string, usually the class under test.
+* @param {Function} specDefinitions function that defines several specs.
+*/
+var describe = function(description, specDefinitions) {
+ return jasmine.getEnv().<span class="apidocCodeKeywordSpan">describe</span>(description, specDefinitions);
+};
+if (isCommonJS) exports.describe = describe;
+
+/**
+* Disables a suite of specifications.  Used to disable some suites in a file, or files, temporarily during development.
+*
+* @param {String} description A string, usually the class under test.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.expect" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.expect">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>expect
+        <span class="apidocSignatureSpan">(actual)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">expect = function (actual) {
+  return jasmine.getEnv().currentSpec.expect(actual);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*
+* It is passed an Object that is the actual value and should chain to one of the many
+* jasmine.Matchers functions.
+*
+* @param {Object} actual Actual value to test against and expected value
+*/
+var expect = function(actual) {
+ return jasmine.getEnv().currentSpec.<span class="apidocCodeKeywordSpan">expect</span>(actual);
+};
+if (isCommonJS) exports.expect = expect;
+
+/**
+* Defines part of a jasmine spec.  Used in cominbination with waits or waitsFor in asynchrnous specs.
+*
+* @param {Function} func Function that defines part of a jasmine spec.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.it" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.it">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>it
+        <span class="apidocSignatureSpan">(desc, func)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">it = function (desc, func) {
+  return jasmine.getEnv().it(desc, func);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*   expect(true).toEqual(true);
+* });
+*
+* @param {String} desc description of this specification
+* @param {Function} func defines the preconditions and expectations of the spec
+*/
+var it = function(desc, func) {
+ return jasmine.getEnv().<span class="apidocCodeKeywordSpan">it</span>(desc, func);
+};
+if (isCommonJS) exports.it = it;
+
+/**
+* Creates a &#x3c;em&#x3e;disabled&#x3c;/em&#x3e; Jasmine spec.
+*
+* A convenience method that allows existing specs to be disabled temporarily during development.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.runs" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.runs">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>runs
+        <span class="apidocSignatureSpan">(func)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">runs = function (func) {
+  jasmine.getEnv().currentSpec.runs(func);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+* Defines part of a jasmine spec.  Used in cominbination with waits or waitsFor in asynchrnous specs.
+*
+* @param {Function} func Function that defines part of a jasmine spec.
+*/
+var runs = function(func) {
+ jasmine.getEnv().currentSpec.<span class="apidocCodeKeywordSpan">runs</span>(func);
+};
+if (isCommonJS) exports.runs = runs;
+
+/**
+* Waits a fixed time period before moving to the next block.
+*
+* @deprecated Use waitsFor() instead
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.spyOn" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.spyOn">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>spyOn
+        <span class="apidocSignatureSpan">(obj, methodName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">spyOn = function (obj, methodName) {
+  return jasmine.getEnv().currentSpec.spyOn(obj, methodName);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*
+* @see jasmine.createSpy
+* @param obj
+* @param methodName
+* @returns a Jasmine spy that can be chained with all spy methods
+*/
+var spyOn = function(obj, methodName) {
+ return jasmine.getEnv().currentSpec.<span class="apidocCodeKeywordSpan">spyOn</span>(obj, methodName);
+};
+if (isCommonJS) exports.spyOn = spyOn;
+
+/**
+* Creates a Jasmine spec that will be added to the current suite.
+*
+* // TODO: pending tests
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.waits" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.waits">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>waits
+        <span class="apidocSignatureSpan">(timeout)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">waits = function (timeout) {
+  jasmine.getEnv().currentSpec.waits(timeout);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+* Waits a fixed time period before moving to the next block.
+*
+* @deprecated Use waitsFor() instead
+* @param {Number} timeout milliseconds to wait
+*/
+var waits = function(timeout) {
+ jasmine.getEnv().currentSpec.<span class="apidocCodeKeywordSpan">waits</span>(timeout);
+};
+if (isCommonJS) exports.waits = waits;
+
+/**
+* Waits for the latchFunction to return true before proceeding to the next block.
+*
+* @param {Function} latchFunction
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.waitsFor" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.waitsFor">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>waitsFor
+        <span class="apidocSignatureSpan">(latchFunction, optional_timeoutMessage, optional_timeout)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">waitsFor = function (latchFunction, optional_timeoutMessage, optional_timeout) {
+  jasmine.getEnv().currentSpec.waitsFor.apply(jasmine.getEnv().currentSpec, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.xdescribe" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.xdescribe">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>xdescribe
+        <span class="apidocSignatureSpan">(description, specDefinitions)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">xdescribe = function (description, specDefinitions) {
+  return jasmine.getEnv().xdescribe(description, specDefinitions);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * Disables a suite of specifications.  Used to disable some suites in a file, or files, temporarily during development.
+ *
+ * @param {String} description A string, usually the class under test.
+ * @param {Function} specDefinitions function that defines several specs.
+ */
+var xdescribe = function(description, specDefinitions) {
+return jasmine.getEnv().<span class="apidocCodeKeywordSpan">xdescribe</span>(description, specDefinitions);
+};
+if (isCommonJS) exports.xdescribe = xdescribe;
+
+
+// Provide the XMLHttpRequest class for IE 5.x-6.x:
+jasmine.XmlHttpRequest = (typeof XMLHttpRequest == &#x22;undefined&#x22;) ? function() {
+function tryIt(f) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.pushwoosh-cordova-plugin.jasmine.xit" id="apidoc.element.pushwoosh-cordova-plugin.jasmine.xit">
+        function <span class="apidocSignatureSpan">pushwoosh-cordova-plugin.jasmine.</span>xit
+        <span class="apidocSignatureSpan">(desc, func)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">xit = function (desc, func) {
+  return jasmine.getEnv().xit(desc, func);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+*
+* A convenience method that allows existing specs to be disabled temporarily during development.
+*
+* @param {String} desc description of this specification
+* @param {Function} func defines the preconditions and expectations of the spec
+*/
+var xit = function(desc, func) {
+ return jasmine.getEnv().<span class="apidocCodeKeywordSpan">xit</span>(desc, func);
+};
+if (isCommonJS) exports.xit = xit;
+
+/**
+* Starts a chain for a Jasmine expectation.
+*
+* It is passed an Object that is the actual value and should chain to one of the many
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
